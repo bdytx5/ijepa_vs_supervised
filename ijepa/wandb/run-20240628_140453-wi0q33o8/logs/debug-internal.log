@@ -1,0 +1,13 @@
+{"time":"2024-06-28T14:04:53.403908274-05:00","level":"INFO","msg":"using version","core version":"0.17.3"}
+{"time":"2024-06-28T14:04:53.403941055-05:00","level":"INFO","msg":"created symlink","path":"/home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_140453-wi0q33o8/logs/debug-core.log"}
+{"time":"2024-06-28T14:04:53.437297867-05:00","level":"INFO","msg":"created new stream","id":"wi0q33o8"}
+{"time":"2024-06-28T14:04:53.43736506-05:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wi0q33o8"}}
+{"time":"2024-06-28T14:04:53.437349961-05:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wi0q33o8"}}
+{"time":"2024-06-28T14:04:53.437394542-05:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wi0q33o8"}}
+{"time":"2024-06-28T14:04:53.630407003-05:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-06-28T14:04:53.672531184-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-06-28T14:04:54.304685661-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-06-28T14:04:54.305471269-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-06-28T14:04:54.911845516-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wi0q33o8"}}
+{"time":"2024-06-28T14:04:54.911906165-05:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"wi0q33o8"}}
+{"time":"2024-06-28T14:04:54.911972857-05:00","level":"INFO","msg":"closed stream","id":"wi0q33o8"}

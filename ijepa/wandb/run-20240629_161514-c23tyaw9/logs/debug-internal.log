@@ -1,0 +1,457 @@
+2024-06-29 16:15:14,665 INFO    StreamThr :49478 [internal.py:wandb_internal():85] W&B internal server running at pid: 49478, started at: 2024-06-29 16:15:14.664122
+2024-06-29 16:15:14,705 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status
+2024-06-29 16:15:14,708 INFO    WriterThread:49478 [datastore.py:open_for_write():87] open: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/run-c23tyaw9.wandb
+2024-06-29 16:15:14,708 DEBUG   SenderThread:49478 [sender.py:send():379] send: header
+2024-06-29 16:15:14,724 DEBUG   SenderThread:49478 [sender.py:send():379] send: run
+2024-06-29 16:15:14,954 INFO    SenderThread:49478 [dir_watcher.py:__init__():211] watching files in: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files
+2024-06-29 16:15:14,955 INFO    SenderThread:49478 [sender.py:_start_run_threads():1188] run started: c23tyaw9 with start time 1719695714.664168
+2024-06-29 16:15:14,984 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: check_version
+2024-06-29 16:15:14,984 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: check_version
+2024-06-29 16:15:15,149 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: run_start
+2024-06-29 16:15:15,194 DEBUG   HandlerThread:49478 [system_info.py:__init__():26] System info init
+2024-06-29 16:15:15,194 DEBUG   HandlerThread:49478 [system_info.py:__init__():41] System info init done
+2024-06-29 16:15:15,194 INFO    HandlerThread:49478 [system_monitor.py:start():194] Starting system monitor
+2024-06-29 16:15:15,195 INFO    SystemMonitor:49478 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-29 16:15:15,196 INFO    HandlerThread:49478 [system_monitor.py:probe():214] Collecting system info
+2024-06-29 16:15:15,197 INFO    SystemMonitor:49478 [interfaces.py:start():188] Started cpu monitoring
+2024-06-29 16:15:15,199 INFO    SystemMonitor:49478 [interfaces.py:start():188] Started disk monitoring
+2024-06-29 16:15:15,202 INFO    SystemMonitor:49478 [interfaces.py:start():188] Started gpu monitoring
+2024-06-29 16:15:15,205 INFO    SystemMonitor:49478 [interfaces.py:start():188] Started memory monitoring
+2024-06-29 16:15:15,206 INFO    SystemMonitor:49478 [interfaces.py:start():188] Started network monitoring
+2024-06-29 16:15:15,227 DEBUG   HandlerThread:49478 [system_info.py:probe():152] Probing system
+2024-06-29 16:15:15,241 DEBUG   HandlerThread:49478 [system_info.py:_probe_git():137] Probing git
+2024-06-29 16:15:15,273 DEBUG   HandlerThread:49478 [system_info.py:_probe_git():145] Probing git done
+2024-06-29 16:15:15,274 DEBUG   HandlerThread:49478 [system_info.py:probe():200] Probing system done
+2024-06-29 16:15:15,274 DEBUG   HandlerThread:49478 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-113-generic-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2024-06-29T21:15:15.227850', 'startedAt': '2024-06-29T21:15:14.637879', 'docker': None, 'cuda': None, 'args': ('--fname', 'configs/in1k_vith14_ep300.yaml', '--devices', 'cuda:0'), 'state': 'running', 'program': '/home/brett/Desktop/tutorials/ijepa/ijepa/main_ijepa.py', 'codePathLocal': 'main_ijepa.py', 'codePath': 'main_ijepa.py', 'git': {'remote': 'https://github.com/facebookresearch/ijepa.git', 'commit': '52c1ae95d05f743e000e8f10a1f3a79b10cff048'}, 'email': 'bdytx5@mail.missouri.edu', 'root': '/home/brett/Desktop/tutorials/ijepa/ijepa', 'host': 'brett', 'username': 'brett', 'executable': '/home/brett/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2850.0025, 'min': 800.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 3400.0, 'min': 800.0, 'max': 3800.0}, {'current': 1200.01, 'min': 800.0, 'max': 3800.0}, {'current': 3400.0, 'min': 800.0, 'max': 3800.0}, {'current': 3400.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 401.8060073852539}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.28331756591797}}
+2024-06-29 16:15:15,274 INFO    HandlerThread:49478 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-29 16:15:15,275 INFO    HandlerThread:49478 [system_monitor.py:probe():227] Publishing system info
+2024-06-29 16:15:15,275 DEBUG   HandlerThread:49478 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-29 16:15:15,955 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/conda-environment.yaml
+2024-06-29 16:15:28,577 DEBUG   HandlerThread:49478 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-29 16:15:28,577 INFO    HandlerThread:49478 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-29 16:15:28,581 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:28,581 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-29 16:15:28,582 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:28,582 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-29 16:15:28,582 DEBUG   SenderThread:49478 [sender.py:send():379] send: files
+2024-06-29 16:15:28,582 INFO    SenderThread:49478 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-29 16:15:28,925 INFO    wandb-upload_0:49478 [upload_job.py:push():130] Uploaded file /tmp/tmp4vikfwdswandb/2lsgz9wl-wandb-metadata.json
+2024-06-29 16:15:28,957 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/conda-environment.yaml
+2024-06-29 16:15:28,957 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/wandb-metadata.json
+2024-06-29 16:15:28,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-29 16:15:28,968 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: python_packages
+2024-06-29 16:15:28,970 DEBUG   SenderThread:49478 [sender.py:send():379] send: telemetry
+2024-06-29 16:15:29,011 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:29,011 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:15:29,012 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:15:29,957 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/requirements.txt
+2024-06-29 16:15:29,957 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:15:29,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:30,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:31,124 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:31,958 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:15:32,671 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:33,654 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:34,654 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:35,655 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:36,654 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:36,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:38,182 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:39,166 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:40,166 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:41,167 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:41,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:42,167 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:43,693 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:43,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:15:43,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:15:44,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:45,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:46,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:47,066 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:47,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:47,961 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/config.yaml
+2024-06-29 16:15:49,185 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:50,184 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:51,936 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:52,186 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:52,190 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:53,190 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:54,691 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:55,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:56,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:57,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:57,693 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:15:58,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:15:58,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:15:58,968 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:15:59,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:00,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:01,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:01,965 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:02,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:02,889 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:03,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:03,965 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:04,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:05,596 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:05,966 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:06,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:07,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:07,966 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:08,092 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:08,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:09,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:09,967 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:10,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:11,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:11,967 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:12,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:13,382 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:13,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:13,968 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:13,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:16:13,968 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:16:14,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:15,206 DEBUG   SystemMonitor:49478 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-29 16:16:15,208 DEBUG   SenderThread:49478 [sender.py:send():379] send: stats
+2024-06-29 16:16:15,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:15,968 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:16,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:17,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:17,969 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:18,383 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:18,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:19,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:19,970 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:20,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:21,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:21,970 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:22,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:23,486 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:23,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:23,971 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:24,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:25,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:25,971 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:26,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:27,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:27,972 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:28,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:28,851 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:28,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:16:28,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:16:29,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:29,972 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:30,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:31,599 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:31,973 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:32,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:33,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:33,973 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:34,187 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:34,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:35,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:35,976 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:36,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:37,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:37,974 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:38,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:39,449 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:39,600 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:39,975 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:40,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:41,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:41,976 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:42,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:43,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:43,968 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:16:43,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:16:43,976 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:44,580 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:44,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:45,208 DEBUG   SenderThread:49478 [sender.py:send():379] send: stats
+2024-06-29 16:16:45,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:45,977 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:46,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:47,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:47,977 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:48,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:49,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:49,601 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:49,978 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:50,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:51,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:51,978 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:52,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:53,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:53,979 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:54,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:54,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:55,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:55,979 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:56,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:57,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:57,980 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:16:58,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:58,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:16:58,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:16:59,597 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:16:59,602 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:16:59,980 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:00,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:01,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:01,981 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:02,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:03,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:03,981 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:04,598 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:04,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:05,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:05,985 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:06,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:07,603 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:07,983 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:08,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:09,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:09,905 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:09,983 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:10,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:11,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:11,984 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:12,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:13,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:13,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:17:13,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:17:13,984 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:14,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:15,150 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:15,209 DEBUG   SenderThread:49478 [sender.py:send():379] send: stats
+2024-06-29 16:17:15,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:15,985 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:16,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:17,604 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:17,985 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:18,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:19,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:19,986 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:20,585 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:20,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:21,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:21,987 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:22,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:23,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:23,987 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:24,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:25,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:25,988 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:25,996 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:26,605 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:27,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:27,988 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:28,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:28,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:17:28,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:17:29,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:29,989 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:30,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:31,000 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:31,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:31,989 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:32,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:33,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:33,990 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:34,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:35,606 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:35,990 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:36,158 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:36,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:37,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:37,991 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:38,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:39,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:39,992 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:40,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:41,177 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:41,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:41,992 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:42,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:43,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:43,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:17:43,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:17:43,993 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:44,607 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:45,209 DEBUG   SenderThread:49478 [sender.py:send():379] send: stats
+2024-06-29 16:17:45,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:45,994 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:46,199 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:46,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:47,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:47,995 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:48,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:49,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:49,995 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:50,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:51,552 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:51,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:51,996 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:52,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:53,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:53,996 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:54,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:55,608 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:55,997 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:56,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:56,896 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:17:57,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:57,998 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:17:58,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:58,969 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-29 16:17:58,969 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: stop_status
+2024-06-29 16:17:59,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:17:59,998 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:18:00,610 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:18:01,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:18:01,959 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:18:01,999 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:18:02,609 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:18:02,923 DEBUG   SenderThread:49478 [sender.py:send():379] send: exit
+2024-06-29 16:18:02,923 INFO    SenderThread:49478 [sender.py:send_exit():586] handling exit code: 1
+2024-06-29 16:18:02,924 INFO    SenderThread:49478 [sender.py:send_exit():588] handling runtime: 167
+2024-06-29 16:18:02,924 INFO    SenderThread:49478 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-29 16:18:02,924 INFO    SenderThread:49478 [sender.py:send_exit():594] send defer
+2024-06-29 16:18:02,924 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,924 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-29 16:18:02,925 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,925 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-29 16:18:02,925 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 1
+2024-06-29 16:18:02,925 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,925 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-29 16:18:02,925 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,925 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-29 16:18:02,925 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 2
+2024-06-29 16:18:02,925 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,925 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-29 16:18:02,925 INFO    HandlerThread:49478 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-29 16:18:02,925 DEBUG   SystemMonitor:49478 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-29 16:18:02,926 DEBUG   SystemMonitor:49478 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-29 16:18:02,927 INFO    HandlerThread:49478 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-29 16:18:02,927 INFO    HandlerThread:49478 [interfaces.py:finish():200] Joined disk monitor
+2024-06-29 16:18:02,961 INFO    HandlerThread:49478 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-29 16:18:02,961 INFO    HandlerThread:49478 [interfaces.py:finish():200] Joined memory monitor
+2024-06-29 16:18:02,961 INFO    HandlerThread:49478 [interfaces.py:finish():200] Joined network monitor
+2024-06-29 16:18:02,962 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,962 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-29 16:18:02,962 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 3
+2024-06-29 16:18:02,962 DEBUG   SenderThread:49478 [sender.py:send():379] send: stats
+2024-06-29 16:18:02,962 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,963 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-29 16:18:02,963 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,963 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-29 16:18:02,963 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 4
+2024-06-29 16:18:02,963 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,963 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-29 16:18:02,963 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,963 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-29 16:18:02,963 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 5
+2024-06-29 16:18:02,964 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,964 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-29 16:18:02,964 DEBUG   SenderThread:49478 [sender.py:send():379] send: summary
+2024-06-29 16:18:02,964 INFO    SenderThread:49478 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-29 16:18:02,965 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,965 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-29 16:18:02,965 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 6
+2024-06-29 16:18:02,965 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,965 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-29 16:18:02,965 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,965 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-29 16:18:02,965 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 7
+2024-06-29 16:18:02,965 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: status_report
+2024-06-29 16:18:02,965 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:02,965 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-29 16:18:02,966 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:02,966 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-29 16:18:02,999 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/wandb-summary.json
+2024-06-29 16:18:03,924 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-29 16:18:04,000 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:18:05,279 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 8
+2024-06-29 16:18:05,279 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: poll_exit
+2024-06-29 16:18:05,279 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:05,279 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-29 16:18:05,280 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:05,280 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-29 16:18:05,280 INFO    SenderThread:49478 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-29 16:18:05,280 INFO    SenderThread:49478 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-06-29 16:18:05,322 INFO    SenderThread:49478 [job_builder.py:build():545] adding wandb-job metadata file
+2024-06-29 16:18:05,332 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 9
+2024-06-29 16:18:05,333 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:05,333 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-29 16:18:05,333 DEBUG   SenderThread:49478 [sender.py:send():379] send: artifact
+2024-06-29 16:18:05,630 INFO    SenderThread:49478 [sender.py:send_artifact():1530] sent artifact job-https___github.com_facebookresearch_ijepa.git_main_ijepa.py - {'id': 'QXJ0aWZhY3Q6OTMyNjQ3ODk0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzNzAwNDQwNw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTMyNjQ3ODk0', 'versionIndex': 2}}}
+2024-06-29 16:18:05,630 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:05,630 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-29 16:18:05,630 INFO    SenderThread:49478 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-29 16:18:05,925 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-29 16:18:06,001 INFO    Thread-12 :49478 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:18:06,001 INFO    SenderThread:49478 [dir_watcher.py:finish():388] scan: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/config.yaml config.yaml
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/wandb-metadata.json wandb-metadata.json
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/requirements.txt requirements.txt
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/conda-environment.yaml conda-environment.yaml
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/wandb-summary.json wandb-summary.json
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log output.log
+2024-06-29 16:18:06,002 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 10
+2024-06-29 16:18:06,002 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: poll_exit
+2024-06-29 16:18:06,003 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:06,003 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-29 16:18:06,005 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:06,005 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-29 16:18:06,005 INFO    SenderThread:49478 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-29 16:18:06,216 INFO    wandb-upload_0:49478 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/config.yaml
+2024-06-29 16:18:06,320 INFO    wandb-upload_3:49478 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/wandb-summary.json
+2024-06-29 16:18:06,345 INFO    wandb-upload_2:49478 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/conda-environment.yaml
+2024-06-29 16:18:06,372 INFO    wandb-upload_1:49478 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/requirements.txt
+2024-06-29 16:18:06,375 INFO    wandb-upload_4:49478 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/files/output.log
+2024-06-29 16:18:06,575 INFO    Thread-11 :49478 [sender.py:transition_state():614] send defer: 11
+2024-06-29 16:18:06,575 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:06,576 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-29 16:18:06,576 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:06,576 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-29 16:18:06,576 INFO    SenderThread:49478 [file_pusher.py:join():175] waiting for file pusher
+2024-06-29 16:18:06,576 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 12
+2024-06-29 16:18:06,576 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:06,576 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-29 16:18:06,576 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:06,576 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-29 16:18:06,576 INFO    SenderThread:49478 [file_stream.py:finish():601] file stream finish called
+2024-06-29 16:18:06,760 INFO    SenderThread:49478 [file_stream.py:finish():605] file stream finish is done
+2024-06-29 16:18:06,760 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 13
+2024-06-29 16:18:06,760 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:06,760 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-29 16:18:06,760 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:06,761 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-06-29 16:18:06,761 INFO    SenderThread:49478 [sender.py:transition_state():614] send defer: 14
+2024-06-29 16:18:06,761 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: defer
+2024-06-29 16:18:06,761 INFO    HandlerThread:49478 [handler.py:handle_request_defer():184] handle defer: 14
+2024-06-29 16:18:06,761 DEBUG   SenderThread:49478 [sender.py:send():379] send: final
+2024-06-29 16:18:06,761 DEBUG   SenderThread:49478 [sender.py:send():379] send: footer
+2024-06-29 16:18:06,761 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: defer
+2024-06-29 16:18:06,761 INFO    SenderThread:49478 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-06-29 16:18:06,762 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-29 16:18:06,762 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: poll_exit
+2024-06-29 16:18:06,762 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: server_info
+2024-06-29 16:18:06,763 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: server_info
+2024-06-29 16:18:06,764 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-29 16:18:06,765 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: get_summary
+2024-06-29 16:18:06,765 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: sampled_history
+2024-06-29 16:18:06,765 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-29 16:18:06,805 DEBUG   SenderThread:49478 [sender.py:send_request():406] send_request: poll_exit
+2024-06-29 16:18:06,806 INFO    MainThread:49478 [wandb_run.py:_footer_history_summary_info():3988] rendering history
+2024-06-29 16:18:06,806 INFO    MainThread:49478 [wandb_run.py:_footer_history_summary_info():4020] rendering summary
+2024-06-29 16:18:06,806 INFO    MainThread:49478 [wandb_run.py:_footer_sync_info():3947] logging synced files
+2024-06-29 16:18:06,806 DEBUG   HandlerThread:49478 [handler.py:handle_request():158] handle_request: shutdown
+2024-06-29 16:18:06,806 INFO    HandlerThread:49478 [handler.py:finish():882] shutting down handler
+2024-06-29 16:18:07,765 INFO    WriterThread:49478 [datastore.py:close():296] close: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240629_161514-c23tyaw9/run-c23tyaw9.wandb
+2024-06-29 16:18:07,805 INFO    SenderThread:49478 [sender.py:finish():1608] shutting down sender
+2024-06-29 16:18:07,806 INFO    SenderThread:49478 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-29 16:18:07,806 INFO    SenderThread:49478 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,175 @@
+2024-06-28 13:51:56,394 INFO    StreamThr :13583 [internal.py:wandb_internal():85] W&B internal server running at pid: 13583, started at: 2024-06-28 13:51:56.392856
+2024-06-28 13:51:56,430 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: status
+2024-06-28 13:51:56,432 INFO    WriterThread:13583 [datastore.py:open_for_write():87] open: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/run-q87wpb2q.wandb
+2024-06-28 13:51:56,432 DEBUG   SenderThread:13583 [sender.py:send():379] send: header
+2024-06-28 13:51:56,432 DEBUG   SenderThread:13583 [sender.py:send():379] send: run
+2024-06-28 13:51:56,731 INFO    SenderThread:13583 [dir_watcher.py:__init__():211] watching files in: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files
+2024-06-28 13:51:56,731 INFO    SenderThread:13583 [sender.py:_start_run_threads():1188] run started: q87wpb2q with start time 1719600716.392329
+2024-06-28 13:51:56,739 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: check_version
+2024-06-28 13:51:56,740 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: check_version
+2024-06-28 13:51:56,900 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: run_start
+2024-06-28 13:51:56,954 DEBUG   HandlerThread:13583 [system_info.py:__init__():26] System info init
+2024-06-28 13:51:56,954 DEBUG   HandlerThread:13583 [system_info.py:__init__():41] System info init done
+2024-06-28 13:51:56,954 INFO    HandlerThread:13583 [system_monitor.py:start():194] Starting system monitor
+2024-06-28 13:51:56,955 INFO    SystemMonitor:13583 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-28 13:51:56,956 INFO    HandlerThread:13583 [system_monitor.py:probe():214] Collecting system info
+2024-06-28 13:51:56,957 INFO    SystemMonitor:13583 [interfaces.py:start():188] Started cpu monitoring
+2024-06-28 13:51:56,959 INFO    SystemMonitor:13583 [interfaces.py:start():188] Started disk monitoring
+2024-06-28 13:51:56,960 INFO    SystemMonitor:13583 [interfaces.py:start():188] Started gpu monitoring
+2024-06-28 13:51:56,961 INFO    SystemMonitor:13583 [interfaces.py:start():188] Started memory monitoring
+2024-06-28 13:51:56,962 INFO    SystemMonitor:13583 [interfaces.py:start():188] Started network monitoring
+2024-06-28 13:51:56,990 DEBUG   HandlerThread:13583 [system_info.py:probe():152] Probing system
+2024-06-28 13:51:56,991 DEBUG   HandlerThread:13583 [system_info.py:_probe_git():137] Probing git
+2024-06-28 13:51:57,015 DEBUG   HandlerThread:13583 [system_info.py:_probe_git():145] Probing git done
+2024-06-28 13:51:57,016 DEBUG   HandlerThread:13583 [system_info.py:probe():200] Probing system done
+2024-06-28 13:51:57,016 DEBUG   HandlerThread:13583 [system_monitor.py:probe():223] {'os': 'Linux-5.15.0-113-generic-x86_64-with-glibc2.10', 'python': '3.8.5', 'heartbeatAt': '2024-06-28T18:51:56.990357', 'startedAt': '2024-06-28T18:51:56.377878', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/facebookresearch/ijepa.git', 'commit': '52c1ae95d05f743e000e8f10a1f3a79b10cff048'}, 'email': 'bdytx5@mail.missouri.edu', 'root': '/home/brett/Desktop/tutorials/ijepa/ijepa', 'host': 'brett', 'username': 'brett', 'executable': '/home/brett/anaconda3/bin/python', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2869.5699999999997, 'min': 800.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 3078.277, 'min': 800.0, 'max': 3800.0}, {'current': 3400.0, 'min': 800.0, 'max': 3800.0}, {'current': 3400.0, 'min': 800.0, 'max': 3800.0}, {'current': 3400.0, 'min': 800.0, 'max': 3800.0}], 'disk': {'/': {'total': 456.8854446411133, 'used': 401.76171112060547}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 31.283321380615234}}
+2024-06-28 13:51:57,016 INFO    HandlerThread:13583 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-28 13:51:57,016 INFO    HandlerThread:13583 [system_monitor.py:probe():227] Publishing system info
+2024-06-28 13:51:57,016 DEBUG   HandlerThread:13583 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-06-28 13:51:57,733 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/conda-environment.yaml
+2024-06-28 13:52:10,271 DEBUG   HandlerThread:13583 [system_info.py:_save_conda():224] Saving conda packages done
+2024-06-28 13:52:10,273 INFO    HandlerThread:13583 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-28 13:52:10,291 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: status_report
+2024-06-28 13:52:10,291 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-28 13:52:10,291 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: status_report
+2024-06-28 13:52:10,292 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: keepalive
+2024-06-28 13:52:10,294 DEBUG   SenderThread:13583 [sender.py:send():379] send: files
+2024-06-28 13:52:10,294 INFO    SenderThread:13583 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-06-28 13:52:10,717 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: python_packages
+2024-06-28 13:52:10,717 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: python_packages
+2024-06-28 13:52:10,719 DEBUG   SenderThread:13583 [sender.py:send():379] send: telemetry
+2024-06-28 13:52:10,720 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: stop_status
+2024-06-28 13:52:10,720 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: stop_status
+2024-06-28 13:52:10,722 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:10,734 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/conda-environment.yaml
+2024-06-28 13:52:10,735 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/requirements.txt
+2024-06-28 13:52:10,735 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/wandb-metadata.json
+2024-06-28 13:52:10,993 INFO    wandb-upload_0:13583 [upload_job.py:push():130] Uploaded file /tmp/tmpszavet4awandb/syiwzz4f-wandb-metadata.json
+2024-06-28 13:52:11,719 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:11,735 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log
+2024-06-28 13:52:12,719 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:12,855 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: status_report
+2024-06-28 13:52:13,719 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:13,737 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log
+2024-06-28 13:52:14,719 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:15,720 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:16,720 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: internal_messages
+2024-06-28 13:52:16,739 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log
+2024-06-28 13:52:16,777 DEBUG   SenderThread:13583 [sender.py:send():379] send: exit
+2024-06-28 13:52:16,777 INFO    SenderThread:13583 [sender.py:send_exit():586] handling exit code: 255
+2024-06-28 13:52:16,778 INFO    SenderThread:13583 [sender.py:send_exit():588] handling runtime: 19
+2024-06-28 13:52:16,778 INFO    SenderThread:13583 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-28 13:52:16,779 INFO    SenderThread:13583 [sender.py:send_exit():594] send defer
+2024-06-28 13:52:16,780 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,780 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 0
+2024-06-28 13:52:16,781 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,781 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-28 13:52:16,781 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 1
+2024-06-28 13:52:16,781 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,782 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 1
+2024-06-28 13:52:16,783 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,783 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-28 13:52:16,783 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 2
+2024-06-28 13:52:16,783 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,784 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 2
+2024-06-28 13:52:16,784 INFO    HandlerThread:13583 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-28 13:52:16,784 DEBUG   SystemMonitor:13583 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-28 13:52:16,784 DEBUG   SystemMonitor:13583 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-28 13:52:16,785 DEBUG   SystemMonitor:13583 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-28 13:52:16,785 INFO    HandlerThread:13583 [interfaces.py:finish():200] Joined cpu monitor
+2024-06-28 13:52:16,786 INFO    HandlerThread:13583 [interfaces.py:finish():200] Joined disk monitor
+2024-06-28 13:52:16,823 INFO    HandlerThread:13583 [interfaces.py:finish():200] Joined gpu monitor
+2024-06-28 13:52:16,823 INFO    HandlerThread:13583 [interfaces.py:finish():200] Joined memory monitor
+2024-06-28 13:52:16,823 INFO    HandlerThread:13583 [interfaces.py:finish():200] Joined network monitor
+2024-06-28 13:52:16,824 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,824 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-28 13:52:16,824 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 3
+2024-06-28 13:52:16,824 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,824 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 3
+2024-06-28 13:52:16,824 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,824 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-28 13:52:16,824 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 4
+2024-06-28 13:52:16,825 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,825 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 4
+2024-06-28 13:52:16,825 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,825 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-28 13:52:16,825 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 5
+2024-06-28 13:52:16,825 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,825 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 5
+2024-06-28 13:52:16,825 DEBUG   SenderThread:13583 [sender.py:send():379] send: summary
+2024-06-28 13:52:16,826 INFO    SenderThread:13583 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-06-28 13:52:16,826 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,826 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-28 13:52:16,826 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 6
+2024-06-28 13:52:16,826 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,826 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 6
+2024-06-28 13:52:16,826 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,827 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-28 13:52:16,830 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: status_report
+2024-06-28 13:52:16,889 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 7
+2024-06-28 13:52:16,889 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:16,889 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 7
+2024-06-28 13:52:16,889 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:16,889 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-28 13:52:17,739 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/config.yaml
+2024-06-28 13:52:17,740 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_created():271] file/dir created: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/wandb-summary.json
+2024-06-28 13:52:17,776 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-28 13:52:20,461 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 8
+2024-06-28 13:52:20,462 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: poll_exit
+2024-06-28 13:52:20,463 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:20,463 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 8
+2024-06-28 13:52:20,464 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:20,464 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-28 13:52:20,464 INFO    SenderThread:13583 [job_builder.py:build():440] Attempting to build job artifact
+2024-06-28 13:52:20,465 INFO    SenderThread:13583 [job_builder.py:_get_source_type():569] is repo sourced job
+2024-06-28 13:52:20,465 WARNING SenderThread:13583 [job_builder.py:_log_if_verbose():274] No program path found, not creating job artifact. See https://docs.wandb.ai/guides/launch/create-job
+2024-06-28 13:52:20,465 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 9
+2024-06-28 13:52:20,466 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:20,466 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 9
+2024-06-28 13:52:20,467 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:20,467 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-28 13:52:20,467 INFO    SenderThread:13583 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-28 13:52:20,741 INFO    Thread-12 :13583 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log
+2024-06-28 13:52:20,742 INFO    SenderThread:13583 [dir_watcher.py:finish():388] scan: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files
+2024-06-28 13:52:20,743 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/config.yaml config.yaml
+2024-06-28 13:52:20,744 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/wandb-metadata.json wandb-metadata.json
+2024-06-28 13:52:20,744 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/requirements.txt requirements.txt
+2024-06-28 13:52:20,745 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/conda-environment.yaml conda-environment.yaml
+2024-06-28 13:52:20,750 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/wandb-summary.json wandb-summary.json
+2024-06-28 13:52:20,751 INFO    SenderThread:13583 [dir_watcher.py:finish():402] scan save: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log output.log
+2024-06-28 13:52:20,751 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 10
+2024-06-28 13:52:20,752 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:20,752 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 10
+2024-06-28 13:52:20,752 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:20,752 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-28 13:52:20,752 INFO    SenderThread:13583 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-28 13:52:20,779 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: poll_exit
+2024-06-28 13:52:20,779 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: poll_exit
+2024-06-28 13:52:20,947 INFO    wandb-upload_0:13583 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/config.yaml
+2024-06-28 13:52:21,053 INFO    wandb-upload_1:13583 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/requirements.txt
+2024-06-28 13:52:21,114 INFO    wandb-upload_4:13583 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/output.log
+2024-06-28 13:52:21,144 INFO    wandb-upload_3:13583 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/wandb-summary.json
+2024-06-28 13:52:21,147 INFO    wandb-upload_2:13583 [upload_job.py:push():130] Uploaded file /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/files/conda-environment.yaml
+2024-06-28 13:52:21,347 INFO    Thread-11 :13583 [sender.py:transition_state():614] send defer: 11
+2024-06-28 13:52:21,348 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:21,348 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 11
+2024-06-28 13:52:21,350 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:21,350 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-28 13:52:21,350 INFO    SenderThread:13583 [file_pusher.py:join():175] waiting for file pusher
+2024-06-28 13:52:21,351 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 12
+2024-06-28 13:52:21,351 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:21,351 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 12
+2024-06-28 13:52:21,352 DEBUG   SenderThread:13583 [sender.py:send_request():406] send_request: defer
+2024-06-28 13:52:21,352 INFO    SenderThread:13583 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-06-28 13:52:21,353 INFO    SenderThread:13583 [file_stream.py:finish():601] file stream finish called
+2024-06-28 13:52:21,454 WARNING StreamThr :13583 [internal.py:is_dead():413] Internal process exiting, parent pid 13549 disappeared
+2024-06-28 13:52:21,454 ERROR   StreamThr :13583 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-06-28 13:52:21,463 INFO    SenderThread:13583 [file_stream.py:finish():605] file stream finish is done
+2024-06-28 13:52:21,464 INFO    SenderThread:13583 [sender.py:transition_state():614] send defer: 13
+2024-06-28 13:52:21,464 INFO    SenderThread:13583 [sender.py:finish():1608] shutting down sender
+2024-06-28 13:52:21,464 INFO    SenderThread:13583 [file_pusher.py:finish():169] shutting down file pusher
+2024-06-28 13:52:21,464 INFO    SenderThread:13583 [file_pusher.py:join():175] waiting for file pusher
+2024-06-28 13:52:21,468 DEBUG   HandlerThread:13583 [handler.py:handle_request():158] handle_request: defer
+2024-06-28 13:52:21,469 INFO    HandlerThread:13583 [handler.py:handle_request_defer():184] handle defer: 13
+2024-06-28 13:52:21,469 INFO    HandlerThread:13583 [handler.py:finish():882] shutting down handler
+2024-06-28 13:52:21,470 INFO    WriterThread:13583 [datastore.py:close():296] close: /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135156-q87wpb2q/run-q87wpb2q.wandb

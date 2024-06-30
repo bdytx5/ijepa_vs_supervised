@@ -1,0 +1,7 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "main_ijepa.py", line 16, in <module>
+    from src.train import main as app_main
+  File "/home/brett/Desktop/tutorials/ijepa/ijepa/src/train.py", line 477, in <module>
+    wandb.log_model(path=best_model_path, name="ijepa_best_model", aliases=["best"])
+AttributeError: module 'wandb' has no attribute 'log_model'

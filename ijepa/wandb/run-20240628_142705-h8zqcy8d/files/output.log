@@ -1,0 +1,23 @@
+
+INFO:root:Epoch 1
+/home/brett/anaconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py:558: UserWarning: This DataLoader will create 10 worker processes in total. Our suggested max number of worker in current system is 4, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+INFO:root:Validation Loss: 1.586, Validation Accuracy: 41.68%
+INFO:root:Epoch 2
+INFO:root:Validation Loss: 1.404, Validation Accuracy: 49.60%
+INFO:root:Epoch 3
+INFO:root:Validation Loss: 1.336, Validation Accuracy: 52.31%
+INFO:root:Epoch 4
+INFO:root:Validation Loss: 1.291, Validation Accuracy: 54.15%
+INFO:root:Epoch 5
+INFO:root:Validation Loss: 1.281, Validation Accuracy: 53.90%
+INFO:root:Epoch 6
+INFO:root:Validation Loss: 1.151, Validation Accuracy: 59.40%
+INFO:root:Epoch 7
+INFO:root:Validation Loss: 1.183, Validation Accuracy: 57.82%
+INFO:root:Epoch 8
+INFO:root:Validation Loss: 1.186, Validation Accuracy: 57.37%
+INFO:root:Epoch 9
+INFO:root:Validation Loss: 1.096, Validation Accuracy: 61.31%
+INFO:root:Epoch 10
+INFO:root:Validation Loss: 1.158, Validation Accuracy: 58.79%

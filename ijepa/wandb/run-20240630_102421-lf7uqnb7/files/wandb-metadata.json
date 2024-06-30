@@ -1,0 +1,73 @@
+{
+    "os": "Linux-5.15.0-113-generic-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "heartbeatAt": "2024-06-30T15:24:22.510219",
+    "startedAt": "2024-06-30T15:24:21.890201",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--fname",
+        "configs/in1k_vith14_ep300.yaml",
+        "--devices",
+        "cuda:0"
+    ],
+    "state": "running",
+    "program": "/home/brett/Desktop/tutorials/ijepa/ijepa/main_ijepa.py",
+    "codePathLocal": "main_ijepa.py",
+    "codePath": "main_ijepa.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": "bdytx5@mail.missouri.edu",
+    "root": "/home/brett/Desktop/tutorials/ijepa/ijepa",
+    "host": "brett",
+    "username": "brett",
+    "executable": "/home/brett/anaconda3/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2680.6805,
+        "min": 800.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1179.65,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.0,
+            "min": 800.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 456.8854446411133,
+            "used": 402.29055404663086
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 31.28331756591797
+    }
+}

@@ -1,0 +1,17 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Traceback (most recent call last):
+  File "main_ijepa.py", line 16, in <module>
+    from src.train import main as app_main
+  File "/home/brett/Desktop/tutorials/ijepa/ijepa/src/train.py", line 478, in <module>
+    run.log_model(path=best_model_path, name="ijepa_best_model", aliases=["best"])
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 400, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 3327, in log_model
+    self._log_artifact(
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 3173, in _log_artifact
+    artifact, aliases = self._prepare_artifact(
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 3273, in _prepare_artifact
+    raise ValueError(
+ValueError: You must pass an instance of wandb.Artifact or a valid file path to log_artifact

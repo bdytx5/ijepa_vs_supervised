@@ -1,0 +1,30 @@
+2024-06-28 13:53:19,309 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Current SDK version is 0.17.3
+2024-06-28 13:53:19,309 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Configure stats pid to 15971
+2024-06-28 13:53:19,309 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Loading settings from /home/brett/.config/wandb/settings
+2024-06-28 13:53:19,309 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Loading settings from /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/settings
+2024-06-28 13:53:19,310 WARNING MainThread:15971 [wandb_setup.py:_flush():76] Unknown environment variable: WANDB_SERVICE
+2024-06-28 13:53:19,310 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2024-06-28 13:53:19,310 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-28 13:53:19,310 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-06-28 13:53:19,310 INFO    MainThread:15971 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-28 13:53:19,310 INFO    MainThread:15971 [wandb_init.py:_log_setup():520] Logging user logs to /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135319-013o03ab/logs/debug.log
+2024-06-28 13:53:19,311 INFO    MainThread:15971 [wandb_init.py:_log_setup():521] Logging internal logs to /home/brett/Desktop/tutorials/ijepa/ijepa/wandb/run-20240628_135319-013o03ab/logs/debug-internal.log
+2024-06-28 13:53:19,311 INFO    MainThread:15971 [wandb_init.py:init():560] calling init triggers
+2024-06-28 13:53:19,311 INFO    MainThread:15971 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-06-28 13:53:19,311 INFO    MainThread:15971 [wandb_init.py:init():610] starting backend
+2024-06-28 13:53:19,311 INFO    MainThread:15971 [wandb_init.py:init():614] setting up manager
+2024-06-28 13:53:19,324 INFO    MainThread:15971 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-06-28 13:53:19,327 INFO    MainThread:15971 [wandb_init.py:init():622] backend started and connected
+2024-06-28 13:53:19,344 INFO    MainThread:15971 [wandb_init.py:init():711] updated telemetry
+2024-06-28 13:53:19,369 INFO    MainThread:15971 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-28 13:54:49,407 ERROR   MainThread:15971 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-06-28 13:54:49,407 ERROR   MainThread:15971 [wandb_init.py:init():1181] error in wandb.init()
+Traceback (most recent call last):
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1171, in init
+    return wi.init()
+  File "/home/brett/anaconda3/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
